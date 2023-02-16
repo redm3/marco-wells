@@ -1114,13 +1114,16 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 	border: none;
-	font: 0/0 a;
+	/* font: 0/0 a; */
 	text-shadow: none;
-	color: transparent;
+	/* color: white; */
+	color: #FFFFFF;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	/* background: url("../images/logo.png") no-repeat center; */
+	background-size: 30px 10px;
+	font-weight: bold;
+	font-style: italic;
 }
 
 /**
@@ -1265,9 +1268,9 @@ header .logo a {
  * header styles
  * --------------------------------------------------------------- 
  */
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:900px) {
 	header .top-bar {
-		left: 60px;
+		left: 40px;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1294,7 +1297,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/file14.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1337,7 +1340,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: #ff0000;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -2095,7 +2098,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/file14\ door.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2578,7 +2581,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #ff0000;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
