@@ -1106,7 +1106,7 @@ header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 25px;
+	margin-top: 20px;
 	position: relative;
 }
 header .logo a {
@@ -1121,8 +1121,9 @@ header .logo a {
 	width: 92px;
 	height: 15px;
 	/* background: url("../images/logo.png") no-repeat center; */
-	background-size: 30px 10px;
+	background-size: 20px 10px;
 	font-weight: bold;
+	font-size: xx-large;
 	font-style: italic;
 }
 
@@ -1196,7 +1197,7 @@ header .logo a {
 
 /* is clicked */
 .menu-toggle.is-clicked span {
-	background-color: rgba(255, 0, 119, 0);
+	background-color: rgb(255, 0, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
 	background-color: #ff0000;
@@ -1222,12 +1223,12 @@ header .logo a {
 /* navigation panel */
 #main-nav-wrap {
 	display: block;
-	width: 100%;
+	width: 70%;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 1.5rem;
 	position: absolute;
-	top: 100%;
-	left: 0;
+	top: 70%;
+	left: 0%;
 }
 
 /* dropdown nav */
