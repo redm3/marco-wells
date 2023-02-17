@@ -594,7 +594,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #cc005f;
+	color: #ff0000;
 	border-bottom: 1px solid #ff0000;
 }
 label, legend {
@@ -1388,7 +1388,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #ff0000;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1420,7 +1420,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #ff0000;
 }
 
 /**
@@ -2187,7 +2187,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #990047;
+	background: #ff0000;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2370,7 +2370,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: #ff5050;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2381,7 +2381,7 @@ header .logo a {
 	width: 100%;
 }
 #message-warning {
-	color: #fa0003;
+	color: #ff0000;
 }
 #message-success {
 	color: #ff0000;
